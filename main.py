@@ -1,5 +1,6 @@
 from add import add_func
 from mul import mul_func
+from mis import mis_func
 ## 함수 선언부
 
 ## 전역 변수부
@@ -11,3 +12,6 @@ print(num1, "+", num2, "=", res)
 
 res = mul_func(num1, num2)
 print(num1, "*", num2, "=", res)
+
+res = mis_func(num1, num2)
+print(num1, "-", num2, "=", res)
